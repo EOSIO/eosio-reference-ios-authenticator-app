@@ -6,7 +6,7 @@ Interested in contributing? That's awesome! Here are some guidelines to get star
   - [Bug Reports](#bug-reports)
   - [Feature Requests](#feature-requests)
   - [Change Requests](#change-requests)
-- [Working on EOSIO Reference iOS Authenticator App](#working-on-friendlyname)
+- [Working on EOSIO Reference iOS Authenticator App](#working-on-eosio-reference-ios-authenticator-app)
   - [Feature Branches](#feature-branches)
   - [Submitting Pull Requests](#submitting-pull-requests)
   - [Testing and Quality Assurance](#testing-and-quality-assurance)
@@ -78,7 +78,7 @@ Pull requests are awesome. If you're looking to raise a PR for something which d
 
 Never underestimate just how useful quality assurance is. If you're looking to get involved with the code base and don't know where to start, checking out and testing a pull request is one of the most useful things you could do.
 
-Essentially, [check out the latest develop branch](#working-on-EOSIO Reference iOS Authenticator App), take it for a spin, and if you find anything odd, please follow the [bug report guidelines](#bug-reports) and let us know!
+Essentially, [check out the latest develop branch](#working-on-eosio-reference-ios-authenticator-app), take it for a spin, and if you find anything odd, please follow the [bug report guidelines](#bug-reports) and let us know!
 
 ## Conduct
 

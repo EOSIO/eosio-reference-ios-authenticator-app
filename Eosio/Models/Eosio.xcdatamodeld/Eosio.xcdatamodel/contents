@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18B75" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Dapp" representedClassName="Dapp" syncable="YES">
+        <attribute name="appHome" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="appName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iconPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastSession" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="metadataHash" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="urlDisplay" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="urlPath" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SecurityExclusion" representedClassName="SecurityExclusion" syncable="YES">
+        <attribute name="addAssertToTransaction" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="domain" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="domainMatch" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="iconIntegrity" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="metadataIntegrity" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sslFingerprint" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="whitelistedActions" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Dapp" positionX="-54" positionY="-9" width="128" height="165"/>
+        <element name="SecurityExclusion" positionX="-45" positionY="63" width="128" height="150"/>
+    </elements>
+</model>

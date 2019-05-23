@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SourceSansPro-Bold.otf">
+            <string>SourceSansPro-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SuccessCheckmarkViewController" customModule="EosioReferenceAuthenticator" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundHeight" destination="4bY-Hb-FOl" id="E6W-Ua-JUB"/>
+                <outlet property="backgroundWidth" destination="hM9-eb-AYH" id="dbW-VN-TQw"/>
+                <outlet property="checkmarkInnerCircle" destination="YQG-Jh-qit" id="skK-2I-N9O"/>
+                <outlet property="checkmarkInnerCircleHeight" destination="dXS-D4-kFk" id="CM8-em-ux9"/>
+                <outlet property="checkmarkInnerCircleWidth" destination="ZdU-Zt-LMb" id="E6C-4Y-yuU"/>
+                <outlet property="checkmarkOutterCircle" destination="3tf-iG-kl8" id="t3c-LT-vru"/>
+                <outlet property="checkmarkOutterCircleHeight" destination="8V2-5H-RdP" id="pyY-wp-p4v"/>
+                <outlet property="checkmarkOutterCircleWidth" destination="zPH-bw-gKP" id="0vu-cA-iNb"/>
+                <outlet property="messageLabel" destination="Qac-aR-gJi" id="G6K-ef-Q3e"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="whiteBackground" destination="giE-vn-W3e" id="2to-pi-Has"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="giE-vn-W3e">
+                    <rect key="frame" x="187" y="333" width="1" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="4bY-Hb-FOl"/>
+                        <constraint firstAttribute="width" constant="1" id="hM9-eb-AYH"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkmarkOutterCircle" translatesAutoresizingMaskIntoConstraints="NO" id="3tf-iG-kl8">
+                    <rect key="frame" x="109.5" y="70" width="156" height="156"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="156" id="8V2-5H-RdP"/>
+                        <constraint firstAttribute="width" constant="156" id="zPH-bw-gKP"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Auth Added" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qac-aR-gJi">
+                    <rect key="frame" x="95.5" y="290" width="184" height="45.5"/>
+                    <fontDescription key="fontDescription" name="SourceSansPro-Bold" family="Source Sans Pro" pointSize="36"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcP-Tq-PH0">
+                    <rect key="frame" x="34" y="353.5" width="307" height="97"/>
+                    <attributedString key="attributedText">
+                        <fragment>
+                            <string key="content">You have successfully added this Key as one of your Auths. You can now easily and safely interact with Apps across the EOSIO ecosystem.</string>
+                            <attributes>
+                                <color key="NSColor" red="0.40054237842559814" green="0.4820854663848877" blue="0.61177909374237061" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <font key="NSFont" size="16" name="SourceSansPro-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkmarkInnerCircle" translatesAutoresizingMaskIntoConstraints="NO" id="YQG-Jh-qit">
+                    <rect key="frame" x="131.5" y="92" width="112" height="112"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="112" id="ZdU-Zt-LMb"/>
+                        <constraint firstAttribute="height" constant="112" id="dXS-D4-kFk"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IQb-eg-Wih" customClass="EosioButton" customModule="EosioReferenceAuthenticator" customModuleProvider="target">
+                    <rect key="frame" x="24" y="611" width="327" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="lMJ-Xh-fPK"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="SourceSansPro-Bold" family="Source Sans Pro" pointSize="16"/>
+                    <state key="normal" title="Back to my Auths"/>
+                    <connections>
+                        <action selector="dismissButtonPressed:" destination="-1" eventType="touchUpInside" id="kFe-KV-WSI"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="YQG-Jh-qit" firstAttribute="centerY" secondItem="3tf-iG-kl8" secondAttribute="centerY" id="145-Si-j8l"/>
+                <constraint firstItem="IQb-eg-Wih" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="96A-cY-3I6"/>
+                <constraint firstItem="Qac-aR-gJi" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="270" id="ANe-cP-3Yy"/>
+                <constraint firstItem="3tf-iG-kl8" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="KdE-aj-NBX"/>
+                <constraint firstItem="giE-vn-W3e" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Msx-oY-IYh"/>
+                <constraint firstItem="giE-vn-W3e" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Tdl-DE-iZd"/>
+                <constraint firstItem="YQG-Jh-qit" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Ukp-c5-gh9"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="IQb-eg-Wih" secondAttribute="bottom" constant="6" id="VKD-UO-cCV"/>
+                <constraint firstItem="Qac-aR-gJi" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="VXM-IP-Z91"/>
+                <constraint firstItem="vcP-Tq-PH0" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="34" id="ZJr-zS-Ndj"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="vcP-Tq-PH0" secondAttribute="trailing" constant="34" id="fwo-QZ-DFx"/>
+                <constraint firstItem="3tf-iG-kl8" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="50" id="hpK-ge-GPM"/>
+                <constraint firstItem="vcP-Tq-PH0" firstAttribute="top" secondItem="Qac-aR-gJi" secondAttribute="bottom" constant="18" id="hsY-82-eBR"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="IQb-eg-Wih" secondAttribute="trailing" constant="24" id="i2y-8g-l1z"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="138.40000000000001" y="152.47376311844079"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="checkmarkInnerCircle" width="112" height="112"/>
+        <image name="checkmarkOutterCircle" width="156" height="156"/>
+    </resources>
+</document>

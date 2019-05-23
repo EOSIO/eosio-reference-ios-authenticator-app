@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SourceSansPro-Bold.otf">
+            <string>SourceSansPro-Bold</string>
+        </array>
+        <array key="SourceSansPro-Regular.otf">
+            <string>SourceSansPro-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--BiometricEnrollmentViewController-->
+        <scene sceneID="VxS-tJ-RYj">
+            <objects>
+                <viewController storyboardIdentifier="BioEnrollmentController" id="B4H-et-Geo" userLabel="BiometricEnrollmentViewController" customClass="BiometricEnrollmentViewController" customModule="EosioReferenceAuthenticator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bta-qC-lOk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set Up Face ID" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OiF-1p-TnS" userLabel="BioEnrollmentErrorLabel">
+                                <rect key="frame" x="8" y="74" width="359" height="45.333333333333343"/>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Bold" family="Source Sans Pro" pointSize="36"/>
+                                <color key="textColor" red="0.023529411764705882" green="0.074509803921568626" blue="0.19215686274509802" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=compact">
+                                    <fontDescription key="fontDescription" name="SourceSansPro-Bold" family="Source Sans Pro" pointSize="32"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="atB-zY-2Tk" userLabel="BioSettingsButton" customClass="EosioButton" customModule="EosioReferenceAuthenticator" customModuleProvider="target">
+                                <rect key="frame" x="24" y="718" width="327" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="8oQ-BA-1Ha">
+                                        <variation key="heightClass=compact" constant="40"/>
+                                    </constraint>
+                                </constraints>
+                                <state key="normal" title="Enroll in Face ID"/>
+                                <connections>
+                                    <action selector="biometricSetupPressed:" destination="B4H-et-Geo" eventType="touchUpInside" id="r1T-b4-5Xq"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K1q-1w-mB9" userLabel="BioEnrollmentSecondaryLabel">
+                                <rect key="frame" x="36" y="179.33333333333334" width="303" height="126.33333333333334"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">As you browse the web and use your favorite apps, your security and safety is of paramount importance. Take a moment to set up Face ID, ensuring only you have access to your securely stored Authenticators.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.40054237840000001" green="0.4820854664" blue="0.61177909370000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" metaFont="system" size="16"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.1000000000000001" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WpB-wG-kob" firstAttribute="trailing" secondItem="K1q-1w-mB9" secondAttribute="trailing" constant="36" id="5by-pr-Ske"/>
+                            <constraint firstItem="WpB-wG-kob" firstAttribute="bottom" secondItem="atB-zY-2Tk" secondAttribute="bottom" constant="10" id="7vb-8x-R9h"/>
+                            <constraint firstItem="K1q-1w-mB9" firstAttribute="leading" secondItem="WpB-wG-kob" secondAttribute="leading" constant="36" id="E92-Pq-eoA"/>
+                            <constraint firstItem="OiF-1p-TnS" firstAttribute="leading" secondItem="WpB-wG-kob" secondAttribute="leading" constant="8" id="Q8H-pQ-oto"/>
+                            <constraint firstItem="WpB-wG-kob" firstAttribute="trailing" secondItem="OiF-1p-TnS" secondAttribute="trailing" constant="8" id="Sq7-N9-ttb"/>
+                            <constraint firstItem="atB-zY-2Tk" firstAttribute="leading" secondItem="WpB-wG-kob" secondAttribute="leading" constant="24" id="sYL-HH-vCJ">
+                                <variation key="heightClass=compact" constant="60"/>
+                            </constraint>
+                            <constraint firstItem="WpB-wG-kob" firstAttribute="trailing" secondItem="atB-zY-2Tk" secondAttribute="trailing" constant="24" id="v1W-iX-GLK">
+                                <variation key="heightClass=compact" constant="60"/>
+                            </constraint>
+                            <constraint firstItem="K1q-1w-mB9" firstAttribute="top" secondItem="OiF-1p-TnS" secondAttribute="bottom" constant="60" id="y4v-dD-C3K"/>
+                            <constraint firstItem="OiF-1p-TnS" firstAttribute="top" secondItem="WpB-wG-kob" secondAttribute="top" constant="30" id="z3E-Gd-xik"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WpB-wG-kob"/>
+                    </view>
+                    <connections>
+                        <outlet property="biometricEnrollmentErrorLabel" destination="OiF-1p-TnS" id="eU6-EW-bpm"/>
+                        <outlet property="biometricSetupButton" destination="atB-zY-2Tk" id="qGF-ru-osK"/>
+                        <outlet property="biometricsEnrollmentHelperText" destination="K1q-1w-mB9" id="4hu-mI-s0Y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1u1-3r-iRA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="684" y="106.40394088669952"/>
+        </scene>
+        <!--NoBiometricViewController-->
+        <scene sceneID="pDC-Ds-MaY">
+            <objects>
+                <viewController storyboardIdentifier="NoBioController" id="YDT-xq-Z7w" userLabel="NoBiometricViewController" customClass="NoBiometricsViewController" customModule="EosioReferenceAuthenticator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y8k-CG-OPf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SadFace" translatesAutoresizingMaskIntoConstraints="NO" id="spR-yz-Nl2" userLabel="Background Icon">
+                                <rect key="frame" x="147" y="109" width="81" height="317"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Biometrics Error Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPe-hs-MYI" userLabel="NoBioErrorLabel">
+                                <rect key="frame" x="30" y="431" width="315" height="90.666666666666629"/>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Bold" family="Source Sans Pro" pointSize="36"/>
+                                <color key="textColor" red="0.023529411760000001" green="0.074509803920000006" blue="0.19215686269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=compact">
+                                    <fontDescription key="fontDescription" name="SourceSansPro-Bold" family="Source Sans Pro" pointSize="32"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Biometrics Secondary Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFb-cA-dn1" userLabel="NoBioSecondaryLabel">
+                                <rect key="frame" x="30" y="551.66666666666663" width="315" height="20.333333333333371"/>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="16"/>
+                                <color key="textColor" red="0.40054237842559814" green="0.4820854663848877" blue="0.61177909374237061" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=compact">
+                                    <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="14"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="aa8-4I-2Ck" firstAttribute="trailing" secondItem="oFb-cA-dn1" secondAttribute="trailing" constant="30" id="0E5-7g-uLo"/>
+                            <constraint firstItem="vPe-hs-MYI" firstAttribute="top" secondItem="aa8-4I-2Ck" secondAttribute="centerY" constant="20" id="4NH-ce-L1K">
+                                <variation key="heightClass=compact" constant="10"/>
+                            </constraint>
+                            <constraint firstItem="spR-yz-Nl2" firstAttribute="top" secondItem="aa8-4I-2Ck" secondAttribute="top" constant="65" id="Ncs-aC-eqR">
+                                <variation key="heightClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="aa8-4I-2Ck" firstAttribute="centerY" secondItem="spR-yz-Nl2" secondAttribute="bottom" constant="-15" id="S2w-xq-EUu">
+                                <variation key="heightClass=compact" constant="-25"/>
+                            </constraint>
+                            <constraint firstItem="spR-yz-Nl2" firstAttribute="centerX" secondItem="aa8-4I-2Ck" secondAttribute="centerX" id="bLc-es-PjZ"/>
+                            <constraint firstItem="vPe-hs-MYI" firstAttribute="leading" secondItem="aa8-4I-2Ck" secondAttribute="leading" constant="30" id="bZZ-RO-azS"/>
+                            <constraint firstItem="aa8-4I-2Ck" firstAttribute="trailing" secondItem="vPe-hs-MYI" secondAttribute="trailing" constant="30" id="gH7-cX-9kx"/>
+                            <constraint firstItem="oFb-cA-dn1" firstAttribute="top" secondItem="vPe-hs-MYI" secondAttribute="bottom" constant="30" id="qCH-Gj-XC0">
+                                <variation key="heightClass=compact" constant="15"/>
+                            </constraint>
+                            <constraint firstItem="oFb-cA-dn1" firstAttribute="leading" secondItem="aa8-4I-2Ck" secondAttribute="leading" constant="30" id="uiy-04-qQr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="aa8-4I-2Ck"/>
+                    </view>
+                    <connections>
+                        <outlet property="noBiometricsErrorLabel" destination="vPe-hs-MYI" id="2d0-At-h0n"/>
+                        <outlet property="noBiometricsSecondaryLabel" destination="oFb-cA-dn1" id="syI-qe-gGa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="why-Oo-VTN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1423" y="106"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SadFace" width="81" height="124"/>
+    </resources>
+</document>

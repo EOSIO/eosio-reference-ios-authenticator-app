@@ -1,0 +1,195 @@
+{
+   "version": "eosio::abi/1.0",
+   "structs": [
+      {
+         "name": "chain_params",
+         "base": "",
+         "fields": [
+            {
+               "name": "chain_id",
+               "type": "checksum256"
+            },
+            {
+               "name": "chain_name",
+               "type": "string"
+            },
+            {
+               "name": "icon",
+               "type": "checksum256"
+            }
+         ]
+      },
+      {
+         "name": "stored_chain_params",
+         "base": "",
+         "fields": [
+            {
+               "name": "chain_id",
+               "type": "checksum256"
+            },
+            {
+               "name": "chain_name",
+               "type": "string"
+            },
+            {
+               "name": "icon",
+               "type": "checksum256"
+            },
+            {
+               "name": "hash",
+               "type": "checksum256"
+            },
+            {
+               "name": "next_unique_id",
+               "type": "uint64"
+            }
+         ]
+      },
+      {
+         "name": "contract_action",
+         "base": "",
+         "fields": [
+            {
+               "name": "contract",
+               "type": "name"
+            },
+            {
+               "name": "action",
+               "type": "name"
+            }
+         ]
+      },
+      {
+         "name": "manifest",
+         "base": "",
+         "fields": [
+            {
+               "name": "account",
+               "type": "name"
+            },
+            {
+               "name": "domain",
+               "type": "string"
+            },
+            {
+               "name": "appmeta",
+               "type": "string"
+            },
+            {
+               "name": "whitelist",
+               "type": "contract_action[]"
+            }
+         ]
+      },
+      {
+         "name": "stored_manifest",
+         "base": "",
+         "fields": [
+            {
+               "name": "unique_id",
+               "type": "uint64"
+            },
+            {
+               "name": "id",
+               "type": "checksum256"
+            },
+            {
+               "name": "account",
+               "type": "name"
+            },
+            {
+               "name": "domain",
+               "type": "string"
+            },
+            {
+               "name": "appmeta",
+               "type": "string"
+            },
+            {
+               "name": "whitelist",
+               "type": "contract_action[]"
+            }
+         ]
+      },
+      {
+         "name": "del.manifest",
+         "base": "",
+         "fields": [
+            {
+               "name": "id",
+               "type": "checksum256"
+            }
+         ]
+      },
+      {
+         "name": "require",
+         "base": "",
+         "fields": [
+            {
+               "name": "chain_params_hash",
+               "type": "checksum256"
+            },
+            {
+               "name": "manifest_id",
+               "type": "checksum256"
+            },
+            {
+               "name": "actions",
+               "type": "contract_action[]"
+            },
+            {
+               "name": "abi_hashes",
+               "type": "checksum256[]"
+            }
+         ]
+      }
+   ],
+   "actions": [
+      {
+         "name": "setchain",
+         "type": "chain_params",
+         "ricardian_contract": ""
+      },
+      {
+         "name": "add.manifest",
+         "type": "manifest",
+         "ricardian_contract": ""
+      },
+      {
+         "name": "del.manifest",
+         "type": "del.manifest",
+         "ricardian_contract": ""
+      },
+      {
+         "name": "require",
+         "type": "require",
+         "ricardian_contract": ""
+      }
+   ],
+   "tables": [
+      {
+         "name": "chain.params",
+         "type": "stored_chain_params",
+         "index_type": "i64",
+         "key_names": [
+            "key"
+         ],
+         "key_types": [
+            "uint64"
+         ]
+      },
+      {
+         "name": "manifests",
+         "type": "stored_manifest",
+         "index_type": "i64",
+         "key_names": [
+            "key"
+         ],
+         "key_types": [
+            "uint64"
+         ]
+      }
+   ],
+   "ricardian_clauses": [],
+   "abi_extensions": []
+}

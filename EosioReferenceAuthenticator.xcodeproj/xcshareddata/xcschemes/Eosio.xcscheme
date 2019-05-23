@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1010"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8A73A3A520E6A4A10088D391"
+               BuildableName = "EosioReferenceAuthenticator.app"
+               BlueprintName = "EosioReferenceAuthenticator"
+               ReferencedContainer = "container:EosioReferenceAuthenticator.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      codeCoverageEnabled = "YES"
+      onlyGenerateCoverageForSpecifiedTargets = "YES"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8A73A3A520E6A4A10088D391"
+            BuildableName = "EosioReferenceAuthenticator.app"
+            BlueprintName = "EosioReferenceAuthenticator"
+            ReferencedContainer = "container:EosioReferenceAuthenticator.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F9E1BB671A91C0836A552E644C7D6814"
+            BuildableName = "EosioMobileAuthenticatorSignatureProvider.framework"
+            BlueprintName = "EosioMobileAuthenticatorSignatureProvider"
+            ReferencedContainer = "container:Pods/Pods.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4A126F0C93A5289009B3BF7561E5340C"
+            BuildableName = "EosioSignatureProviderProtocol.framework"
+            BlueprintName = "EosioSignatureProviderProtocol"
+            ReferencedContainer = "container:Pods/Pods.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B003848A0C65C2A9FA35CD41D47D8344"
+            BuildableName = "EosioSwiftCommon.framework"
+            BlueprintName = "EosioSwiftCommon"
+            ReferencedContainer = "container:Pods/Pods.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "813B2595CCDCBAE00A908A08B423ECAE"
+            BuildableName = "EosioSwiftCommon.bundle"
+            BlueprintName = "EosioSwiftCommon-EosioSwiftCommon"
+            ReferencedContainer = "container:Pods/Pods.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F090DF078E6B14B7CA5DD31DF74EF378"
+            BuildableName = "EosioVault.framework"
+            BlueprintName = "EosioVault"
+            ReferencedContainer = "container:Pods/Pods.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "91D97B68895D20D68371904479CB80EC"
+            BuildableName = "EosioVault.bundle"
+            BlueprintName = "EosioVault-EosioVault"
+            ReferencedContainer = "container:Pods/Pods.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8A73A3B920E6A4A20088D391"
+               BuildableName = "EosioReferenceAuthenticatorTests.xctest"
+               BlueprintName = "EosioReferenceAuthenticatorTests"
+               ReferencedContainer = "container:EosioReferenceAuthenticator.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8A73A3C420E6A4A20088D391"
+               BuildableName = "EosioReferenceAuthenticatorUITests.xctest"
+               BlueprintName = "EosioReferenceAuthenticatorUITests"
+               ReferencedContainer = "container:EosioReferenceAuthenticator.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8A73A3A520E6A4A10088D391"
+            BuildableName = "EosioReferenceAuthenticator.app"
+            BlueprintName = "EosioReferenceAuthenticator"
+            ReferencedContainer = "container:EosioReferenceAuthenticator.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8A73A3A520E6A4A10088D391"
+            BuildableName = "EosioReferenceAuthenticator.app"
+            BlueprintName = "EosioReferenceAuthenticator"
+            ReferencedContainer = "container:EosioReferenceAuthenticator.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "-com.apple.CoreData.ConcurrencyDebug 1"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-com.apple.CoreData.SQLDebug 1"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-com.apple.CoreData.Logging.stderr 1"
+            isEnabled = "NO">
+         </CommandLineArgument>
+      </CommandLineArguments>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "EMBEDDED_BROWSER"
+            value = "1"
+            isEnabled = "NO">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "SKIP_ASSERT_REQUIRE"
+            value = "1"
+            isEnabled = "NO">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "SHOW_ASSERT_ACTION"
+            value = "1"
+            isEnabled = "NO">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8A73A3A520E6A4A10088D391"
+            BuildableName = "EosioReferenceAuthenticator.app"
+            BlueprintName = "EosioReferenceAuthenticator"
+            ReferencedContainer = "container:EosioReferenceAuthenticator.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

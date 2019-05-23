@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SourceSansPro-Bold.otf">
+            <string>SourceSansPro-Bold</string>
+        </array>
+        <array key="SourceSansPro-Regular.otf">
+            <string>SourceSansPro-Regular</string>
+        </array>
+        <array key="SourceSansPro-Semibold.otf">
+            <string>SourceSansPro-Semibold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Selective Disclosure View Controller-->
+        <scene sceneID="gfn-1W-XDO">
+            <objects>
+                <viewController storyboardIdentifier="SelectiveDisclosureViewController" id="caQ-0d-o7N" customClass="SelectiveDisclosureViewController" customModule="EosioReferenceAuthenticator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nHJ-xe-0fz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Allow Unknown App to log in using this authenticator app?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="isw-bG-dK3">
+                                <rect key="frame" x="24" y="175.66666666666666" width="327" height="113.33333333333334"/>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Bold" family="Source Sans Pro" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oKn-wL-y8D">
+                                <rect key="frame" x="114.66666666666669" y="333" width="146" height="146"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="146" id="o8B-IX-YNr"/>
+                                    <constraint firstAttribute="height" constant="146" id="pz2-KV-caF"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Domain Requesting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X7Z-BI-Kxu">
+                                <rect key="frame" x="24" y="513" width="327" height="19"/>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="15"/>
+                                <color key="textColor" red="0.59257304668426514" green="0.66645056009292603" blue="0.77255970239639282" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="http://unknown.url" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WtR-9Y-e2l">
+                                <rect key="frame" x="24" y="538" width="327" height="27.666666666666629"/>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Semibold" family="Source Sans Pro" pointSize="22"/>
+                                <color key="textColor" red="0.19672176241874695" green="0.24671289324760437" blue="0.40393787622451782" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cnF-DO-92F">
+                                <rect key="frame" x="24" y="699" width="327" height="1"/>
+                                <color key="backgroundColor" red="0.88628280162811279" green="0.88626372814178467" blue="0.88626748323440552" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="3ie-I3-B1P"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="zYm-ww-RFV">
+                                <rect key="frame" x="24" y="720" width="327" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j5U-fW-8QS" customClass="BounceButton" customModule="EosioReferenceAuthenticator" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="163.66666666666666" height="50"/>
+                                        <fontDescription key="fontDescription" name="SourceSansPro-Bold" family="Source Sans Pro" pointSize="16"/>
+                                        <state key="normal" title="Deny">
+                                            <color key="titleColor" red="0.40054237840000001" green="0.4820854664" blue="0.61177909370000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapDecline:" destination="caQ-0d-o7N" eventType="touchUpInside" id="ARt-5d-Tvn"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RGI-9a-hpm" customClass="BounceButton" customModule="EosioReferenceAuthenticator" customModuleProvider="target">
+                                        <rect key="frame" x="163.66666666666663" y="0.0" width="163.33333333333337" height="50"/>
+                                        <color key="backgroundColor" red="0.122942917" green="0.1954764128" blue="0.42355126139999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" name="SourceSansPro-Bold" family="Source Sans Pro" pointSize="16"/>
+                                        <state key="normal" title="Allow">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="didTapAllow:" destination="caQ-0d-o7N" eventType="touchUpInside" id="hew-Td-gKM"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="GZt-VT-W38"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hbI-h2-Ge0" firstAttribute="trailing" secondItem="WtR-9Y-e2l" secondAttribute="trailing" constant="24" id="1Hb-XE-nf7"/>
+                            <constraint firstItem="WtR-9Y-e2l" firstAttribute="top" secondItem="X7Z-BI-Kxu" secondAttribute="bottom" constant="6" id="6Tn-W2-aql"/>
+                            <constraint firstItem="zYm-ww-RFV" firstAttribute="leading" secondItem="hbI-h2-Ge0" secondAttribute="leading" constant="24" id="7J3-2S-VWS"/>
+                            <constraint firstAttribute="trailing" secondItem="cnF-DO-92F" secondAttribute="trailing" constant="24" id="7Yz-pt-GOs"/>
+                            <constraint firstAttribute="trailing" secondItem="isw-bG-dK3" secondAttribute="trailing" constant="24" id="Ale-CR-mBM"/>
+                            <constraint firstItem="oKn-wL-y8D" firstAttribute="centerY" secondItem="nHJ-xe-0fz" secondAttribute="centerY" id="H1H-tg-sf6"/>
+                            <constraint firstItem="hbI-h2-Ge0" firstAttribute="bottom" secondItem="zYm-ww-RFV" secondAttribute="bottom" constant="8" id="Irc-Nv-a7E"/>
+                            <constraint firstItem="hbI-h2-Ge0" firstAttribute="trailing" secondItem="zYm-ww-RFV" secondAttribute="trailing" constant="24" id="NKl-Eu-yZW"/>
+                            <constraint firstItem="cnF-DO-92F" firstAttribute="leading" secondItem="nHJ-xe-0fz" secondAttribute="leading" constant="24" id="Slf-M6-xuX"/>
+                            <constraint firstItem="isw-bG-dK3" firstAttribute="leading" secondItem="nHJ-xe-0fz" secondAttribute="leading" constant="24" id="cHm-3f-1FF"/>
+                            <constraint firstItem="oKn-wL-y8D" firstAttribute="top" secondItem="isw-bG-dK3" secondAttribute="bottom" constant="44" id="dZ4-1Z-YNq"/>
+                            <constraint firstItem="zYm-ww-RFV" firstAttribute="top" secondItem="cnF-DO-92F" secondAttribute="bottom" constant="20" id="enf-rM-6tL"/>
+                            <constraint firstItem="hbI-h2-Ge0" firstAttribute="trailing" secondItem="X7Z-BI-Kxu" secondAttribute="trailing" constant="24" id="iu6-eR-pxp"/>
+                            <constraint firstItem="WtR-9Y-e2l" firstAttribute="leading" secondItem="hbI-h2-Ge0" secondAttribute="leading" constant="24" id="oSe-iI-7Sn"/>
+                            <constraint firstItem="X7Z-BI-Kxu" firstAttribute="top" secondItem="oKn-wL-y8D" secondAttribute="bottom" constant="34" id="tUO-sA-nsu"/>
+                            <constraint firstItem="oKn-wL-y8D" firstAttribute="centerX" secondItem="nHJ-xe-0fz" secondAttribute="centerX" id="w7s-pc-QgM"/>
+                            <constraint firstItem="X7Z-BI-Kxu" firstAttribute="leading" secondItem="hbI-h2-Ge0" secondAttribute="leading" constant="24" id="ywj-ve-tS2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hbI-h2-Ge0"/>
+                    </view>
+                    <connections>
+                        <outlet property="allowButton" destination="RGI-9a-hpm" id="CZu-oX-WY1"/>
+                        <outlet property="appIconImageView" destination="oKn-wL-y8D" id="qMH-eI-jxa"/>
+                        <outlet property="appLabel" destination="isw-bG-dK3" id="eUY-Vj-rTo"/>
+                        <outlet property="declineButton" destination="j5U-fW-8QS" id="sOI-ef-cDL"/>
+                        <outlet property="requestingAppURL" destination="WtR-9Y-e2l" id="J0U-k3-FsB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rDB-il-Dik" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-8.8000000000000007" y="110.09852216748769"/>
+        </scene>
+    </scenes>
+</document>

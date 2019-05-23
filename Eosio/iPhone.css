@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    src: local('/Resources/Fonts/SourceSansPro-Regular.otf'), url('SourceSansPro-Regular.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: local('/Resources/Fonts/SourceSansPro-Semibold.otf'), url('SourceSansPro-Semibold.otf') format('opentype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: local('/Resources/Fonts/SourceSansPro-Bold.otf'), url('SourceSansPro-Bold.otf') format('opentype');
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Source Sans Pro';
+    font-size: 15px;
+    font-weight: normal;
+    color: #061331;
+    line-height: 22px;
+    margin: 0;
+    background-color: rgb(249, 250, 252);
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 19px;
+    font-weight: 600;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 600;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+}
+
+h4 {
+    font-size: 17px;
+    font-weight: 600;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+}
+
+div.variable {
+    display: inline;
+    font-weight: bold;
+}
+
+ul, ol {
+    -webkit-margin-before: 0;
+}
+
+li {
+    margin: 0 0 0.7em 0;
+}
+
+br {
+    display: block;
+    content: '';
+    padding: 0.3em;
+}
+
+img {
+    max-width: 100%;
+}

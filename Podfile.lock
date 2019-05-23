@@ -1,0 +1,77 @@
+PODS:
+  - BigInt (3.1.0):
+    - SipHash (~> 1.2)
+  - EosioSwift (0.1.1):
+    - BigInt (~> 3.1)
+    - PromiseKit (~> 6.8)
+  - EosioSwiftAbieosSerializationProvider (0.1.1):
+    - EosioSwift (~> 0.1.1)
+  - EosioSwiftEcc (0.1.1):
+    - EosioSwift (~> 0.1.1)
+    - GRKOpenSSLFramework (~> 1.0)
+  - EosioSwiftReferenceAuthenticatorSignatureProvider (0.1.0):
+    - EosioSwift (~> 0.1.1)
+  - EosioSwiftVault (0.1.1):
+    - EosioSwift (~> 0.1.1)
+    - EosioSwiftEcc (~> 0.1.1)
+  - EosioSwiftVaultSignatureProvider (0.1.1):
+    - EosioSwift (~> 0.1.1)
+    - EosioSwiftEcc (~> 0.1.1)
+    - EosioSwiftVault (~> 0.1.1)
+  - GRKOpenSSLFramework (1.0.2.16)
+  - PromiseKit (6.8.4):
+    - PromiseKit/CorePromise (= 6.8.4)
+    - PromiseKit/Foundation (= 6.8.4)
+    - PromiseKit/UIKit (= 6.8.4)
+  - PromiseKit/CorePromise (6.8.4)
+  - PromiseKit/Foundation (6.8.4):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.8.4):
+    - PromiseKit/CorePromise
+  - ReachabilitySwift (4.3.1)
+  - SipHash (1.2.2)
+  - SnapshotTesting (1.5.0)
+
+DEPENDENCIES:
+  - EosioSwift (~> 0.1.1)
+  - EosioSwiftAbieosSerializationProvider (~> 0.1.1)
+  - EosioSwiftEcc (~> 0.1.1)
+  - EosioSwiftReferenceAuthenticatorSignatureProvider (~> 0.1.0)
+  - EosioSwiftVault (~> 0.1.1)
+  - EosioSwiftVaultSignatureProvider (~> 0.1.1)
+  - ReachabilitySwift
+  - SnapshotTesting (~> 1.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BigInt
+    - EosioSwift
+    - EosioSwiftAbieosSerializationProvider
+    - EosioSwiftEcc
+    - EosioSwiftVault
+    - EosioSwiftVaultSignatureProvider
+    - GRKOpenSSLFramework
+    - PromiseKit
+    - ReachabilitySwift
+    - SipHash
+    - SnapshotTesting
+  https://github.com/EOSIO/eosio-swift-pod-specs:
+    - EosioSwiftReferenceAuthenticatorSignatureProvider
+
+SPEC CHECKSUMS:
+  BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
+  EosioSwift: d0710f56b8afc6408faf766427538f2af046c595
+  EosioSwiftAbieosSerializationProvider: 281b16b5fe0787aa1cf1c709d9ca3f5696b8ebba
+  EosioSwiftEcc: 24800b7d1577f13d64413ded2a36f6993ebf7896
+  EosioSwiftReferenceAuthenticatorSignatureProvider: d102254448673a0ac60064299958e6b00df41c20
+  EosioSwiftVault: a5b0b478dada77116485153c478ca15d32d79b0e
+  EosioSwiftVaultSignatureProvider: 2e638ef307b029062d3724caa39117ff4ed24069
+  GRKOpenSSLFramework: 35944e317e6336b2944ad70b059d84db6b2d8532
+  PromiseKit: 51794a832647e7b819336dc2279039ce9f1cc49b
+  ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
+  SipHash: fad90a4683e420c52ef28063063dbbce248ea6d4
+  SnapshotTesting: 9ca1d80f6322509a035856170c11d0571b1f7171
+
+PODFILE CHECKSUM: 92b2df0353d6f71613b3b5167152038ee02da563
+
+COCOAPODS: 1.6.1

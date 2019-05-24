@@ -76,8 +76,11 @@ This is just one of several thought leadership works focusing on wallets, key ma
 
 ## Installation
 1. Clone this repo and ensure you are on the `master` branch
-1. Run a `pod install`
-1. Open the `.xcworkspace` in Xcode and Build and Run the project
+1. Run a `pod install`.
+1. Open the `.xcworkspace` in Xcode.
+1. Change the bundle identifier from `one.block.eosio` to a new bundle identifer of your choice.
+1. Under `Capabilities, App Groups`, select an app group from your Apple developer account.
+1. Build and Run the project.
 
 ## First Use
 ### On Device

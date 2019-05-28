@@ -1,9 +1,13 @@
 # EOSIO Reference iOS Authenticator App
-An iOS app demonstrating inter-application signing of transactions using various EOSIO Labs specifications and technologies. Transactions can be proposed from:
-* other native iOS apps using [EOSIO SDK for Swift](https://github.com/EOSIO/eosio-swift)
-* web applications running in Mobile Safari
-
 ![EOSIO Labs](https://img.shields.io/badge/EOSIO-Labs-5cb3ff.svg)
+
+An iOS app demonstrating inter-application signing of transactions using various EOSIO Labs specifications and technologies. Transactions can be proposed from:
+* web applications running in Mobile Safari
+* other native iOS apps using [EOSIO SDK for Swift](https://github.com/EOSIO/eosio-swift)
+
+Signing from Mobile Safari | Signing from Native App
+:---: | :---:
+<img src="img/gifmobilesafari.gif" width="220"> | <img src="img/gifnativeapp.gif" width="220">
 
 ## About EOSIO Labs
 EOSIO Labs repositories are experimental. Developers in the community are encouraged to use EOSIO Labs repositories as the basis for code and concepts to incorporate into their applications. Community members are also welcome to contribute and further develop these repositories. Since these repositories are not supported by Block.one, we may not provide responses to issue reports, pull requests, updates to functionality, or other requests from the community, and we encourage the community to take responsibility for these.

@@ -1,10 +1,5 @@
 using_local_pods = ENV['USE_LOCAL_PODS'] == 'true' || false
 
-unless using_local_pods
-    source 'https://github.com/EOSIO/eosio-swift-pod-specs.git'
-    source 'https://github.com/CocoaPods/Specs.git'
-end
-
 platform :ios, '12.0'
 use_frameworks!
 
@@ -26,7 +21,7 @@ def set_up_remote_pods
     pod 'EosioSwiftVault', '~> 0.1.1'
     pod 'EosioSwiftEcc', '~> 0.1.1'
     pod 'EosioSwiftVaultSignatureProvider', '~> 0.1.1'
-    pod 'EosioSwiftReferenceAuthenticatorSignatureProvider', '~> 0.1.0'
+    pod 'EosioSwiftReferenceAuthenticatorSignatureProvider', '~> 0.1.1'
 end
 
 if using_local_pods

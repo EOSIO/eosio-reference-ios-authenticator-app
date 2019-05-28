@@ -9,7 +9,7 @@ PODS:
   - EosioSwiftEcc (0.1.1):
     - EosioSwift (~> 0.1.1)
     - GRKOpenSSLFramework (~> 1.0)
-  - EosioSwiftReferenceAuthenticatorSignatureProvider (0.1.0):
+  - EosioSwiftReferenceAuthenticatorSignatureProvider (0.1.1):
     - EosioSwift (~> 0.1.1)
   - EosioSwiftVault (0.1.1):
     - EosioSwift (~> 0.1.1)
@@ -36,7 +36,7 @@ DEPENDENCIES:
   - EosioSwift (~> 0.1.1)
   - EosioSwiftAbieosSerializationProvider (~> 0.1.1)
   - EosioSwiftEcc (~> 0.1.1)
-  - EosioSwiftReferenceAuthenticatorSignatureProvider (~> 0.1.0)
+  - EosioSwiftReferenceAuthenticatorSignatureProvider (~> 0.1.1)
   - EosioSwiftVault (~> 0.1.1)
   - EosioSwiftVaultSignatureProvider (~> 0.1.1)
   - ReachabilitySwift
@@ -48,6 +48,7 @@ SPEC REPOS:
     - EosioSwift
     - EosioSwiftAbieosSerializationProvider
     - EosioSwiftEcc
+    - EosioSwiftReferenceAuthenticatorSignatureProvider
     - EosioSwiftVault
     - EosioSwiftVaultSignatureProvider
     - GRKOpenSSLFramework
@@ -55,15 +56,13 @@ SPEC REPOS:
     - ReachabilitySwift
     - SipHash
     - SnapshotTesting
-  https://github.com/EOSIO/eosio-swift-pod-specs:
-    - EosioSwiftReferenceAuthenticatorSignatureProvider
 
 SPEC CHECKSUMS:
   BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
   EosioSwift: d0710f56b8afc6408faf766427538f2af046c595
   EosioSwiftAbieosSerializationProvider: 281b16b5fe0787aa1cf1c709d9ca3f5696b8ebba
   EosioSwiftEcc: 24800b7d1577f13d64413ded2a36f6993ebf7896
-  EosioSwiftReferenceAuthenticatorSignatureProvider: d102254448673a0ac60064299958e6b00df41c20
+  EosioSwiftReferenceAuthenticatorSignatureProvider: 76e31ef964d5413c26cca1e3b0ad3e9e58703733
   EosioSwiftVault: a5b0b478dada77116485153c478ca15d32d79b0e
   EosioSwiftVaultSignatureProvider: 2e638ef307b029062d3724caa39117ff4ed24069
   GRKOpenSSLFramework: 35944e317e6336b2944ad70b059d84db6b2d8532
@@ -72,6 +71,6 @@ SPEC CHECKSUMS:
   SipHash: fad90a4683e420c52ef28063063dbbce248ea6d4
   SnapshotTesting: 9ca1d80f6322509a035856170c11d0571b1f7171
 
-PODFILE CHECKSUM: 92b2df0353d6f71613b3b5167152038ee02da563
+PODFILE CHECKSUM: 751b714b0151a5c8c1f70c62966f49fbe5c883ff
 
 COCOAPODS: 1.6.1

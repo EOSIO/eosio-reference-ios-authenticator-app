@@ -84,6 +84,7 @@ This is just one of several thought leadership works focusing on wallets, key ma
 1. Open the `.xcworkspace` in Xcode.
 1. Change the bundle identifier from `one.block.eosio` to a new bundle identifer of your choice.
 1. Under `Capabilities, App Groups`, select an app group from your Apple developer account.
+1. In the `Constants` class set `vaultAccessGroup` to your app group.
 1. Build and Run the project.
 
 ## First Use

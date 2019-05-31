@@ -11,6 +11,6 @@ import Foundation
 struct Constants {
 
     /// Change this to the the app group for your application
-    static let vaultAccessGroup = "group.one.block" // <- CHANGE THIS FOR YOUR APPLICATION
+    static let vaultAccessGroup = "group.com.eoslaomao" // <- CHANGE THIS FOR YOUR APPLICATION
 
 }

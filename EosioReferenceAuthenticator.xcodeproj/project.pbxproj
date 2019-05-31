@@ -62,6 +62,7 @@
 		6B9B0422219B64B5007CAA51 /* AuthenticatorRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9B041F219B64B5007CAA51 /* AuthenticatorRequestViewController.swift */; };
 		6B9B0426219B6913007CAA51 /* SelectiveDisclosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9B0425219B6913007CAA51 /* SelectiveDisclosureViewController.swift */; };
 		6BBC713221B6E52D007B0063 /* ResourceHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBC713121B6E52D007B0063 /* ResourceHash.swift */; };
+		6D27F11B22A13CE500ACFAD9 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2D70FA213F2A6800DB27C7 /* CloudKit.framework */; };
 		70407E4521AC5AE00045ED6E /* AuthorizersListDeviceHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70407E4421AC5AE00045ED6E /* AuthorizersListDeviceHeader.swift */; };
 		705F54792178B98200E79FF2 /* SuccessCheckmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705F54772178B98200E79FF2 /* SuccessCheckmarkViewController.swift */; };
 		705F547A2178B98200E79FF2 /* SuccessCheckmarkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 705F54782178B98200E79FF2 /* SuccessCheckmarkViewController.xib */; };
@@ -292,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF7666C6CF3E8D19C7A6978C /* Pods_EosioReferenceAuthenticator.framework in Frameworks */,
+				6D27F11B22A13CE500ACFAD9 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1234,7 +1236,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 9574LUMBYJ;
+				DEVELOPMENT_TEAM = 43J4XXA46A;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1252,7 +1254,7 @@
 					"-framework",
 					"\"openssl\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = one.block.eosio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eoslaomao.authenticator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ENABLE_BATCH_MODE = NO;
@@ -1272,7 +1274,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 9574LUMBYJ;
+				DEVELOPMENT_TEAM = 43J4XXA46A;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1290,7 +1292,7 @@
 					"-framework",
 					"\"openssl\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = one.block.eosio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eoslaomao.authenticator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ENABLE_BATCH_MODE = NO;
@@ -1307,7 +1309,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9574LUMBYJ;
+				DEVELOPMENT_TEAM = 43J4XXA46A;
 				INFOPLIST_FILE = EosioTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1330,7 +1332,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9574LUMBYJ;
+				DEVELOPMENT_TEAM = 43J4XXA46A;
 				INFOPLIST_FILE = EosioTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1352,7 +1354,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9574LUMBYJ;
+				DEVELOPMENT_TEAM = 43J4XXA46A;
 				INFOPLIST_FILE = EosioUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1375,7 +1377,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9574LUMBYJ;
+				DEVELOPMENT_TEAM = 43J4XXA46A;
 				INFOPLIST_FILE = EosioUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (

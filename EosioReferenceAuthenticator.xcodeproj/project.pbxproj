@@ -29,13 +29,13 @@
 		1FF99F072201FDA60064F7A0 /* WebViewPreLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF99F032201FDA60064F7A0 /* WebViewPreLoader.swift */; };
 		1FF99F082201FDA60064F7A0 /* ActionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF99F042201FDA60064F7A0 /* ActionData.swift */; };
 		1FF99F0A2201FDBB0064F7A0 /* Warmup.html in Resources */ = {isa = PBXBuildFile; fileRef = 1FF99F092201FDBB0064F7A0 /* Warmup.html */; };
-		281718DC2270BD0C00845C8A /* (null) in Sources */ = {isa = PBXBuildFile; };
+		281718DC2270BD0C00845C8A /* BuildFile in Sources */ = {isa = PBXBuildFile; };
 		28290799227C848700D97077 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28290798227C848700D97077 /* Constants.swift */; };
 		283012142268C3CB00E91084 /* eosio.assert.abi.json in Resources */ = {isa = PBXBuildFile; fileRef = 283012132268C3CB00E91084 /* eosio.assert.abi.json */; };
 		283012162268FD1700E91084 /* EosioTransactionActionRicardian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283012152268FD1700E91084 /* EosioTransactionActionRicardian.swift */; };
 		28515BDB22678218000E8F95 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28515BD922678218000E8F95 /* DataFetcher.swift */; };
 		28515BDC22678218000E8F95 /* VerifiedDataCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28515BDA22678218000E8F95 /* VerifiedDataCache.swift */; };
-		28515BE02267839F000E8F95 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		28515BE02267839F000E8F95 /* BuildFile in Sources */ = {isa = PBXBuildFile; };
 		28515BE12267839F000E8F95 /* AppManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28515BDF2267839F000E8F95 /* AppManifest.swift */; };
 		28535547226F5EE700CD285B /* EosioTransactionContractTemplateToolkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28535546226F5EE700CD285B /* EosioTransactionContractTemplateToolkit.swift */; };
 		28535549226F63B800CD285B /* contract-template-toolkit.js in Resources */ = {isa = PBXBuildFile; fileRef = 28535548226F63B800CD285B /* contract-template-toolkit.js */; };
@@ -53,7 +53,7 @@
 		6B0BE7642192034800C417D7 /* Data＋urlSafeBase64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0BE7632192034800C417D7 /* Data＋urlSafeBase64.swift */; };
 		6B1206F121B9741D0050D955 /* AppManifestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1206F021B9741D0050D955 /* AppManifestProvider.swift */; };
 		6B1206F321B97E4D0050D955 /* AppMetadataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1206F221B97E4D0050D955 /* AppMetadataProvider.swift */; };
-		6B176527213F166000BC8CA8 /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6B176527213F166000BC8CA8 /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6B2BF635216677000090529C /* Eosio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B2BF633216677000090529C /* Eosio.xcdatamodeld */; };
 		6B69F26020F3BA53006A1EE2 /* JsonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B69F25F20F3BA53006A1EE2 /* JsonExtensions.swift */; };
 		6B720E8421DEA84F00507066 /* String+urlDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B720E8321DEA84F00507066 /* String+urlDomain.swift */; };
@@ -153,7 +153,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6B176527213F166000BC8CA8 /* (null) in Embed Frameworks */,
+				6B176527213F166000BC8CA8 /* BuildFile in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -806,34 +806,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EosioReferenceAuthenticatorUITests/Pods-EosioReferenceAuthenticatorUITests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework",
-				"${BUILT_PRODUCTS_DIR}/EosioSwift/EosioSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/EosioSwiftAbieosSerializationProvider/EosioSwiftAbieosSerializationProvider.framework",
-				"${BUILT_PRODUCTS_DIR}/EosioSwiftEcc/EosioSwiftEcc.framework",
-				"${BUILT_PRODUCTS_DIR}/EosioSwiftReferenceAuthenticatorSignatureProvider/EosioSwiftReferenceAuthenticatorSignatureProvider.framework",
-				"${BUILT_PRODUCTS_DIR}/EosioSwiftVault/EosioSwiftVault.framework",
-				"${BUILT_PRODUCTS_DIR}/EosioSwiftVaultSignatureProvider/EosioSwiftVaultSignatureProvider.framework",
-				"${PODS_ROOT}/GRKOpenSSLFramework/OpenSSL-iOS/bin/openssl.framework",
-				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
-				"${BUILT_PRODUCTS_DIR}/SipHash/SipHash.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-EosioReferenceAuthenticatorUITests/Pods-EosioReferenceAuthenticatorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BigInt.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EosioSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EosioSwiftAbieosSerializationProvider.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EosioSwiftEcc.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EosioSwiftReferenceAuthenticatorSignatureProvider.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EosioSwiftVault.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EosioSwiftVaultSignatureProvider.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SipHash.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-EosioReferenceAuthenticatorUITests/Pods-EosioReferenceAuthenticatorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -846,36 +823,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EosioReferenceAuthenticatorTests/Pods-EosioReferenceAuthenticatorTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework",
-				"${BUILT_PRODUCTS_DIR}/EosioSwift/EosioSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/EosioSwiftAbieosSerializationProvider/EosioSwiftAbieosSerializationProvider.framework",
-				"${BUILT_PRODUCTS_DIR}/EosioSwiftEcc/EosioSwiftEcc.framework",
-				"${BUILT_PRODUCTS_DIR}/EosioSwiftReferenceAuthenticatorSignatureProvider/EosioSwiftReferenceAuthenticatorSignatureProvider.framework",
-				"${BUILT_PRODUCTS_DIR}/EosioSwiftVault/EosioSwiftVault.framework",
-				"${BUILT_PRODUCTS_DIR}/EosioSwiftVaultSignatureProvider/EosioSwiftVaultSignatureProvider.framework",
-				"${PODS_ROOT}/GRKOpenSSLFramework/OpenSSL-iOS/bin/openssl.framework",
-				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
-				"${BUILT_PRODUCTS_DIR}/SipHash/SipHash.framework",
-				"${BUILT_PRODUCTS_DIR}/SnapshotTesting/SnapshotTesting.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-EosioReferenceAuthenticatorTests/Pods-EosioReferenceAuthenticatorTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BigInt.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EosioSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EosioSwiftAbieosSerializationProvider.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EosioSwiftEcc.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EosioSwiftReferenceAuthenticatorSignatureProvider.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EosioSwiftVault.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EosioSwiftVaultSignatureProvider.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SipHash.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapshotTesting.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-EosioReferenceAuthenticatorTests/Pods-EosioReferenceAuthenticatorTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -923,33 +875,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EosioReferenceAuthenticator/Pods-EosioReferenceAuthenticator-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework",
-				"${BUILT_PRODUCTS_DIR}/EosioSwift/EosioSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/EosioSwiftAbieosSerializationProvider/EosioSwiftAbieosSerializationProvider.framework",
-				"${BUILT_PRODUCTS_DIR}/EosioSwiftEcc/EosioSwiftEcc.framework",
-				"${BUILT_PRODUCTS_DIR}/EosioSwiftReferenceAuthenticatorSignatureProvider/EosioSwiftReferenceAuthenticatorSignatureProvider.framework",
-				"${BUILT_PRODUCTS_DIR}/EosioSwiftVault/EosioSwiftVault.framework",
-				"${BUILT_PRODUCTS_DIR}/EosioSwiftVaultSignatureProvider/EosioSwiftVaultSignatureProvider.framework",
-				"${PODS_ROOT}/GRKOpenSSLFramework/OpenSSL-iOS/bin/openssl.framework",
-				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
-				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
-				"${BUILT_PRODUCTS_DIR}/SipHash/SipHash.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EosioReferenceAuthenticator/Pods-EosioReferenceAuthenticator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BigInt.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EosioSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EosioSwiftAbieosSerializationProvider.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EosioSwiftEcc.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EosioSwiftReferenceAuthenticatorSignatureProvider.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EosioSwiftVault.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EosioSwiftVaultSignatureProvider.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SipHash.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EosioReferenceAuthenticator/Pods-EosioReferenceAuthenticator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1025,7 +956,7 @@
 				BBA7326F220DFE9D00008811 /* UndoDeletedKeyCell.swift in Sources */,
 				1F207A2521C9761F00C186EC /* UtilityFunctions.swift in Sources */,
 				B4C1D62D216E6A43003DF853 /* EosioDefaults.swift in Sources */,
-				28515BE02267839F000E8F95 /* (null) in Sources */,
+				28515BE02267839F000E8F95 /* BuildFile in Sources */,
 				6B2BF635216677000090529C /* Eosio.xcdatamodeld in Sources */,
 				B4B51E53216FD899009EDA63 /* Fetchable.swift in Sources */,
 				6B0BE7622192033B00C417D7 /* QueryItems+dictionary.swift in Sources */,
@@ -1047,7 +978,7 @@
 				2876DCC22267A2D90022E8C3 /* AppError.swift in Sources */,
 				B4522A9A217EBDF400DA60D1 /* BiometricEnrollmentViewController.swift in Sources */,
 				1FF99F082201FDA60064F7A0 /* ActionData.swift in Sources */,
-				281718DC2270BD0C00845C8A /* (null) in Sources */,
+				281718DC2270BD0C00845C8A /* BuildFile in Sources */,
 				28290799227C848700D97077 /* Constants.swift in Sources */,
 				1F2531CF21AC6F37005D1EF0 /* SecurityExclusion+CoreDataCustom.swift in Sources */,
 				8F87ADEC21EF76A10043C314 /* Dictionary.swift in Sources */,
